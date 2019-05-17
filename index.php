@@ -70,7 +70,9 @@
 			data:datos,
 			url:"procesos/regLogin/login.php",
 			success:function(r){
-
+                
+                    console.log(r);
+                    
 				if(r==1){
 					window.location="vistas/inicio.php";
 				}else{
